@@ -21,6 +21,12 @@ instance Applicative Maybe where
   (Just f) <*> something = fmap f something
 ```
 
+#### List
+```haskell
+instance Applicative [] where
+  pure x = [x]
+  fs <*> xs = [f x | f <- fs, x <- xs]
+```
 
 ## Monad
 ```haskell
