@@ -1,7 +1,11 @@
+# Functor
+
 ```haskell
 class Functor f where
   fmap :: (a -> b) -> f a -> f b
 ```
+
+# Applicative Functor
 
 ```haskell
 class (Functor f) => Applicative f where
@@ -9,6 +13,7 @@ class (Functor f) => Applicative f where
   (<*>) :: f (a -> b) -> f a -> f b
 ```
 
+# Monad
 ```haskell
 class Monad m where
   return :: a -> m a
