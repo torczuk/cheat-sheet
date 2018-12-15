@@ -13,6 +13,15 @@ class (Functor f) => Applicative f where
   (<*>) :: f (a -> b) -> f a -> f b
 ```
 
+## Maybe
+```haskell
+instance Applicative Maybe where
+  pure = Just
+  Nothing <*> _ = Nothing
+  (Just f) <*> something = fmap f something
+```
+
+
 # Monad
 ```haskell
 class Monad m where
