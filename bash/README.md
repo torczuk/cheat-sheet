@@ -1,5 +1,5 @@
 #### links
-(http://mywiki.wooledge.org/BashFAQ)[bash faq]
+[bash faq](http://mywiki.wooledge.org/BashFAQ)
 
 #### scripts
 ```bash
