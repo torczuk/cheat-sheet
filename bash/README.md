@@ -25,5 +25,6 @@ set -e automatic error detection, not recommended
 
 #### one line
 ```
-for i in {1..10}; do; echo $i; done    - one line loop
+for i in {1..10}; do; echo $i; done                             - one line loop
+if [[ $filename = *.jpg ]]; then; echo "$filename is jpg"; fi.  - checking filename pattern 
 ```
