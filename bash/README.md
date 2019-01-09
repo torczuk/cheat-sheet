@@ -1,3 +1,6 @@
+#### links
+(Bash faq)[http://mywiki.wooledge.org/BashFAQ]
+
 #### scripts
 ```bash
 $0 - name of the script
